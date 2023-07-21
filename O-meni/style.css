@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+   
+}
+
+
+
+@media screen and (min-width: 767px) {
+    .navigation {
+        background-color: #6a040f;
+        justify-content: space-between;
+         padding: 2px 15px;
+    }
+
+    .nav {
+        color: #ffffff;
+        width: 234px;
+        text-align: center;
+    }
+
+    .motiv1{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        background-color: #6a040f;
+        opacity: 10%;
+        position: absolute;
+        top: -300px;
+        right: 80px;
+        animation: motiv1 10s infinite;
+    }
+    
+    .motiv1-1{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        background-color: #ffffff;
+        border: #6a040f 4px solid;
+        opacity: 10%;
+        position: absolute;
+        top: -200px;
+        right: 150px;
+        animation: motiv1-1 10s infinite;
+    }
+
+    @keyframes motiv1 {
+        0% {
+            top: -300px;
+            right: 80px;
+        }
+
+        25% {
+            top: -300px;
+            right: 170px;
+        }
+
+        50% {
+            top: -210px;
+            right: 170px;
+        }
+
+        75% {
+            top: -210px;
+            right: 80px;
+        }
+
+        100% {
+            top: -300px;
+            right: 80px;
+        }
+    }
+
+
+
+    @keyframes motiv1-1 {
+        0% {
+            top: -200px;
+            right: 150px;
+        }
+
+        25% {
+            top: -200px;
+            right: 60px;
+        }
+
+        50% {
+            top: -290px;
+            right: 60px;
+        }
+
+        75% {
+            top: -290px;
+            right: 150px;
+        }
+
+        100% {
+            top: -200px;
+            right: 150px;
+        }
+    }
+}
+*/
+
+
+.about-me{
+    margin: 1rem;
+    padding: 0;
+}
+
+.back_to_top {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    background-color: #6a040f;
+    color: white;
+    cursor: pointer;
+}
+
+.color{
+    color: white;
+}
+
+.header {
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    padding: 2px 1px;
+}
+
+.navigation {
+     background-color: #6a040f;
+    color: #ffffff;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato';
+    font-size: 18px;
+    padding: 12px 0;
+    justify-content: space-between;
+
+}
+
+.nav {
+    color: #ffffff ;
+    padding: 0px 2px;
+    margin: 2px 6px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.circle {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 17rem;
+    height: 17rem;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+.motive {
+    position: absolute;
+    background-color: #6a040f;
+    top: 55px;
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.profile-picture {
+    background-image: url("picture.jpg");
+    width: 15rem;
+    height: 15rem;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 50%;
+    border: 5px solid #6a040f;    
+}
+
+
+.about{
+    position: absolute;
+    top: 350px;
+}
+
+.text {
+    padding: 1rem;
+    line-height: 25px;
+    color: #6a040f;
+    font-family: 'Lato';
+    font-size: 18px;
+
+}
+
+.subtitle{
+    font-family: 'Lato';
+    color: #6a040f;
+    padding: 0 2rem;
+    margin-top: 3rem;
+}
+
+.motiv2{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #6a040f;
+    opacity: 10%;
+    position: absolute;
+    top: 850px;
+    left: -43px;
+}
+
+.motiv2-2{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border: #6a040f 4px solid;
+    opacity: 10%;
+    position: absolute;
+    top: 750px;
+    left: 15px;
+}

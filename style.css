@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+    .pieces {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .name-position{
+        width:-webkit-fill-available;
+    }
+
+  
+}
+
+
+
+@media screen and (min-width: 767px) {
+
+    .navigation {
+        background-color: #6a040f;
+        justify-content: space-between;
+        padding: 2px 87px;
+    }
+
+    .nav {
+        color: #ffffff;
+        text-align: center;
+        width: 234px;
+    }
+
+    .pieces {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left-column {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .right-column {
+        width: 100%;
+    }
+
+
+    .name-position {
+        position: absolute;
+        top: 150px;
+        left: 440px;
+    }
+}
+
+
+
+.biography {
+    padding: 0px;
+    margin: 1rem;
+}
+
+.back_to_top {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    background-color: #6a040f;
+    color: white;
+    cursor: pointer;
+}
+
+
+.color{
+color: #ffffff;
+}
+
+.header {
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    padding: 2px 1px;
+}
+
+.navigation {
+   background-color: #6a040f;
+    color: #ffffff;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato';
+    font-size: 18px;
+    padding: 12px 0;
+    justify-content: space-between;
+}
+
+.nav {
+    color: #ffffff;
+    padding: 0px 2px;
+    margin: 2px 6px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.Vertical-Mobile-Navbar{
+    display: none;
+}
+
+.motive {
+    position: absolute;
+    top: 55px;
+    background-color: #6a040f;
+    margin: 1rem 0;
+    width: 10rem;
+    height: 10rem;
+}
+
+.circle {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 17rem;
+    height: 17rem;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+.profile-picture {
+    background-image: url("picture.jpg");
+    width: 15rem;
+    height: 15rem;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 50%;
+    border: 5px solid #6a040f;
+}
+
+.name {
+    font-size: 30px;
+    text-align: center;
+    color: #6a040f;
+    margin: 20rem 1rem 2rem;
+    font-family: 'Corben';
+}
+
+.left-column {
+    background-color: #6a040f;
+    color: #ffffff;
+    height: auto;
+    font-family: 'Lato';
+    font-size: 18px;
+}
+
+.headline {
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: 'Corben';
+    font-size: 28px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 8px;
+    font-family: 'Lato';
+}
+
+.perspective{
+ padding: 4px 12px;   
+}
+
+.padding {
+    padding: 15px;
+}
+
+.english {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.germany {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.level {
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.level1 {
+    background-color: #6a040f;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.languages{
+    padding: 0 25px;
+}
+
+.language {
+    padding: 10px 8px;
+}
+
+.motiv2 {
+    background-color: #ffffff;
+    width: 45px;
+    height: 45px;
+}
+
+.right-column {
+    background-color: #ffffff;
+    color: #6a040f;
+    height: auto;
+    padding: 50px 25px;
+    font-family: 'Lato';
+    font-size: 18px;
+}
+
+.list {
+    display: flex;
+    margin-top: 1rem;
+    padding: 0 25px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #6a040f;
+    margin-top: 2rem;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.text {
+    padding: 5px 0 15px 0;
+    line-height: 25px;
+}

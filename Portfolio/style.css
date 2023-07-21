@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {}
+
+
+
+@media screen and (min-width: 767px) {
+
+    .navigation {
+        background-color: #6a040f;
+        justify-content: space-between;
+        padding: 2px 15px;
+    }
+
+    .nav {
+        color: #ffffff;
+        width: 234px;
+        text-align: center;
+    }
+
+    .motiv1 {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        background-color: #6a040f;
+        opacity: 10%;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+
+    }
+
+    .motiv1-1 {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        background-color: #ffffff;
+        border: #6a040f 4px solid;
+        opacity: 10%;
+        position: absolute;
+        top: 140px;
+        right: 70px;
+
+    }
+
+
+    .motiv2 {
+        animation: motiv2 10s infinite;
+    }
+
+
+    .motiv2-2 {
+        animation: motiv2-2 10s infinite;
+    }
+
+
+
+
+    @keyframes motiv2-2 {
+        0% {
+            top: 750px;
+            left: 15px;
+        }
+
+        25% {
+            top: 750px;
+            left: -75px;
+        }
+
+        50% {
+            top: 840px;
+            left: -75px;
+        }
+
+        75% {
+            top: 840px;
+            left: 15px;
+        }
+
+        100% {
+            top: 750px;
+            left: 15px;
+        }
+    }
+
+
+
+
+    @keyframes motiv2 {
+        0% {
+            top: 850px;
+            left: -40px;
+        }
+
+        25% {
+            top: 850px;
+            left: 50px;
+        }
+
+        50% {
+            top: 760px;
+            left: 50px;
+        }
+
+        75% {
+            top: 760px;
+            left: -40px;
+        }
+
+        100% {
+            top: 850px;
+            left: -40px;
+        }
+    }
+
+}
+
+
+
+.portfolio {
+    margin: 1rem;
+    padding: 0;
+}
+
+.back_to_top {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    background-color: #6a040f;
+    cursor: pointer;
+}
+
+.header {
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    padding: 2px 1px;
+}
+
+.navigation {
+     background-color: #6a040f;
+    color: #ffffff;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato';
+    font-size: 18px;
+    padding: 12px 0;
+    justify-content: space-between;
+}
+
+
+.nav {
+    color: #ffffff;
+    padding: 0px 2px;
+    margin: 2px 6px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.headline {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: 'Corben';
+    font-size: 28px;
+    color: #6a040f;
+}
+
+.subtitle {
+    margin: 8px 0px;
+    color: #6a040f;
+    text-align: center;
+    font-family: 'Corben';
+}
+
+.paragraph {
+    color: #6a040f;
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+
+.h3 {
+    color: #6a040f;
+    margin-top: 10px;
+}
+
+.text {
+    font-family: 'Lato';
+    color: #6a040f;
+    font-size: 18px;
+}
+
+table {
+    width: 80%;
+    height: auto;
+    margin: 5% 10%;
+    cursor: pointer;
+}
+
+.name {
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Lato';
+    padding: 12px 0;
+}
+
+th {
+    border: 2px solid #6a040f;
+    background-color: #6a040f;
+}
+
+.link {
+    color: #6a040f;
+    font-family: 'Lato';
+    font-size: 20px;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.link1 {
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #6a040f;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.color {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+tr {
+    border: 2px solid #6a040f;
+}
+
+td {
+    border: 2px solid #6a040f;
+}
+
+.motiv2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #6a040f;
+    opacity: 10%;
+    position: absolute;
+    top: 850px;
+    left: -40px;
+}
+
+.motiv2-2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border: #6a040f 4px solid;
+    opacity: 10%;
+    position: absolute;
+    top: 750px;
+    left: 15px;
+}
